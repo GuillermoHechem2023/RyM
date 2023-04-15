@@ -142,16 +142,7 @@
 
   }
 
-  @media (max-width:880px) {
-  
-  }
-  
-  @media(max-width: 480px) {
-  
-  }
-  
-  
-  
+  @media only screen and (max-width: 485px) 
   
   
   
