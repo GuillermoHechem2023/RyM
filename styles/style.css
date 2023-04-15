@@ -105,6 +105,37 @@
   .dropdown a:hover {color:white;}
   
   .main-menu > li:hover .dropdown {visibility:visible; opacity:1; transition-delay:0s;}
+
+
+
+  footer {
+ background-color: violet ;
+ padding: 20px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+  }
+
+  footer {
+ list-style: none;
+
+  }
+
+  footer div nav ul {
+ padding: 10px;
+ margin: 5px;
+ 
+
+  }
+
+  footer div nav ul li {
+ padding: 10px;
+ margin: 5px;
+ background-color: white;
+ border-radius: 10px;
+
+  }
   
   
   
