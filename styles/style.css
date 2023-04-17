@@ -5,21 +5,17 @@
    }
 
 
-   /*
-   body img {
-    opacity: 0.3;
-    width: 100%;
-   }
-   */
+   
+
+   
   
    body {
-    background-color: rgba(198, 198, 95, 0.594);
-     background-image: url(../img/imagenfondo);
+     background-color: rgba(198, 198, 95, 0.594);
      background-position: center; 
      background-size: cover;
      font-family: 'Dosis', sans-serif;
     
-  }
+     }
     
   
   
@@ -190,9 +186,9 @@
 
   }
 
-  footer div nav ul li {
+  footer div  ul li {
  padding: 10px;
- margin: 5px;
+ margin: 10px;
  background-color: rgb(129, 115, 192);
  border-radius: 10px;
 
