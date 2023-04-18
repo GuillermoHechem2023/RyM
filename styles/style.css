@@ -124,6 +124,7 @@
     background-color: violet;
     border-radius: 10px;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
 
   .synopsis-container img {
@@ -131,7 +132,29 @@
     margin: 10px;
   }
 
+  .card-container {
+    
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: violet;
+    border-radius: 10px;
+  }
 
+
+
+
+
+   @media (max-width: 480px) {
+    footer { 
+   flex-direction: column;
+   gap: 10px;
+    }  
+   }
+
+  
 
 
 
