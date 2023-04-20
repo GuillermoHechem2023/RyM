@@ -19,6 +19,7 @@ fetch(URL_API)
         <p>Gender: ${character.gender}</p>
         <p>Species: ${character.species}</p>
         <p>Status: ${character.status}</p>
+        <p>Created: ${character.created}</p>
         </div>
         </div>
         `}

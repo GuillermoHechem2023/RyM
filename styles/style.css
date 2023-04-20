@@ -146,11 +146,11 @@
   
   .card-container img {
     
-
-    border-radius: 10px;
+   background-color: white;
+   border-radius: 10px;
   }
 
-
+  
 
 
 
@@ -168,15 +168,12 @@
    }
 
 
-
   footer div nav ul {
  padding: 10px;
  margin: 5px;
  
-
-
- 
   }
+
 
   footer div  ul li {
  padding: 10px;
@@ -200,6 +197,22 @@
    gap: 10px;
     }  
    }
+
+
+   @media (max-width: 480px) {
+    main { 
+   flex-direction: column;
+   gap: 10px;
+    }  
+   }
+
+   @media (max-width: 480px) {
+    nav { 
+   flex-direction: column;
+   gap: 10px;
+    }  
+   }
+
   
   
   
