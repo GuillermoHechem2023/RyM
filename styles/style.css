@@ -219,7 +219,7 @@
 
 
    footer {
-   background-color: gray ;
+   background-color: rgba(128, 128, 128, 0.756) ;
    padding: 20px;
    margin: 20px;
    display: flex;
@@ -237,11 +237,12 @@
   }
 
 
-  footer div  ul li {
+  footer div ul li {
  padding: 10px;
  margin: 10px;
  background-color: rgb(129, 115, 192);
  border-radius: 10px;
+ border: 2px black solid;
 
   }
 
