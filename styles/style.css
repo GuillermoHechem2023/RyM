@@ -116,7 +116,19 @@
 
 
 
-  .synopsis-container, .streaming-info {
+  .synopsis-container {
+    height: 50%;
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    background-color: violet;
+    border-radius: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+  }
+
+  .synopsis-container-1 {
     height: 50%;
     padding: 30px;
     margin: 20px;
@@ -127,9 +139,49 @@
     flex-wrap: wrap;
   }
 
+  .streaming-info {
+    height: 50%;
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    background-color: violet;
+    border-radius: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+   .streaming-info img {
+   
+    border-radius: 50%;
+    border: 1px black solid
+  }
+
+
+
+  .synopsis-container {
+ 
+    opacity: .7;
+    background-image: url(../img/imagen-2.jpeg);
+  }
+
+
+
   .synopsis-container img {
     width: 200px;
     margin: 10px;
+    opacity: .5;
+    background-image: url(../img/imagen-2.jpeg);
   }
 
   .card-container {
@@ -148,9 +200,19 @@
     
    background-color: white;
    border-radius: 10px;
+   border: 2px black solid
   }
 
   
+
+  .card {
+    
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.578);
+    border-radius: 5%;
+    margin: 10px;
+    border: 2px black solid;
+  }
 
 
 
@@ -185,6 +247,7 @@
 
   footer img {
  opacity: 1;
+ border: 2px black solid
 
   }
 
@@ -213,14 +276,7 @@
     }  
    }
 
-   .card {
-    
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.578);
-    border-radius: 10%;
-    margin: 10px;
-    border: 1px black solid;
-  }
+
   
   
   
